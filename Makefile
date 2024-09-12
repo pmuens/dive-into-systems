@@ -1,4 +1,5 @@
 all: setup build-gcc
+debug: setup build-clang
 
 GCC_OPTS = -Wall -Wextra -Werror -pedantic
 CLANG_OPTS = -g -Wall -Wextra -Werror -pedantic
