@@ -2,6 +2,9 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": false,
-  "editor.defaultFormatter": "ms-vscode.cpptools",
-  "debug.allowBreakpointsEverywhere": true
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "debug.allowBreakpointsEverywhere": true,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
 }
